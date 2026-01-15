@@ -1,0 +1,33 @@
+Changelog
+--------------------------------------------------------
+Grumium - Conky Theme
+[ Draco Themes Pack ] 
+
+by Closebox73
+
+Social
+X			: https://twitter.com/closebox73
+Discord		: https://discord.com/users/1115644269802311750
+Pling		: https://pling.com/u/closebox73x
+Mastodon	: https://mastodon.social/@closebox73
+--------------------------------------------------------
+
+v2.0
+date : 15 Dec 2024
+-	Add override_utf8_locale line
+-	Add line draw_blended in conky config due transparent image issue in Gnome & KDE
+-	New weather.sh
+-	New weather-icon-text.sh
+-	Change main font from Economica to be Oswald
+-	Change sidebar Clock font from Bebas Neue to be Yakiza
+-	Change Circle widget Clock font from Roboto to be Seeds
+-	Change weather icon font from Feather to be Weathericons73 ( my own font )
+-	Change ringmeters memory info to be Bar 
+-	Delete monitor icon in System info
+-	Delete mpd player status info
+-	Some minor change
+
+
+v1.0
+date : 19 Jul 2022
+-	Initial release

@@ -1,0 +1,206 @@
+# -------------------------------------------------
+# .bashrc Configuration
+# -------------------------------------------------
+
+# ----- PATH Configuration -----
+# Add custom and standard binary locations to PATH for command execution
+PATH="$PATH:.:$HOME/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/bin:/usr/games:/sbin:$HOME/bin:$HOME/.local/bin:"
+
+#Isso força o dialog a usar caracteres ASCII básicos para as bordas.
+#Testa se o terminal suporta caracteres gráficos estendidos
+#if [[ "$LANG" =~ 'UTF-8' ]]; then
+if [[ "$(printf '\u250C')" =~ "┌" ]]; then
+  export NCURSES_NO_UTF8_ACS=1  # Terminal suporta ACS
+else
+  export NCURSES_NO_UTF8_ACS=0  # Terminal NÃO suporta ACS
+fi
+
+# Only apply the following settings if bash is running interactively
+case $- in
+*i*) ;;      # Continue if interactive
+*) return ;; # Exit if not interactive
+esac
+
+# ----- Color Support & Aliases -----
+# Enable color support for commands and define aliases for enhanced readability
+if [ -x /usr/bin/dircolors ]; then
+	test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+	alias ls='ls --color=auto'
+	alias dir='dir --color=auto'
+	alias vdir='vdir --color=auto'
+	alias grep='grep --color=auto'
+	# Customize colors for "other-writable" directories
+	LS_COLORS+=':ow=01;33'
+fi
+
+# Additional aliases for 'ls' to simplify common directory listings
+alias ll='ls -l' # Long listing format
+alias la='ls -A' # Show all entries except '.' and '..'
+alias l='ls -CF' # Classify entries and display directories with trailing slash
+
+# Load ble.sh for an enhanced interactive shell experience
+# Verifica se a variável BLE_VERSION está definida e não vazia,
+# indicando que o ble.sh já foi carregado anteriormente.
+# Além disso, verifica se o arquivo /etc/chili-blerc existe.
+if [[ -n ${BLE_VERSION-} && -e /etc/chili-blerc ]]; then
+	# Se o ble.sh já estiver carregado, apenas carrega o arquivo de configuração personalizado.
+	source /etc/chili-blerc
+
+# Caso contrário, verifica se tanto o script ble.sh quanto o arquivo de configuração existem.
+elif [[ -e /usr/share/blesh/ble.sh && -e /etc/chili-blerc ]]; then
+	# Se ambos existirem, carrega o ble.sh com opções específicas:
+	# --noattach   -> Evita que o ble.sh assuma o controle imediato do shell interativo.
+	# --rcfile     -> Define o arquivo de configuração que será utilizado pelo ble.sh.
+	source /usr/share/blesh/ble.sh --noattach --rcfile /etc/chili-blerc
+fi
+
+# ----- Pyenv Configuration -----
+# If pyenv is installed, activate it automatically in the home directory.
+if command -v pyenv >/dev/null; then
+	export PYENV_ROOT="$HOME/.pyenv"
+	export PATH="$PYENV_ROOT/bin:$PATH"
+	eval "$(pyenv init --path)"
+	eval "$(pyenv init -)"
+fi
+
+# ----- GRC-RS Configuration -----
+# Enable colorized output for various commands
+GRC="/usr/bin/grc-rs"
+if tty -s && [ -n "$TERM" ] && [ "$TERM" != "dumb" ] && command -v "$GRC" >/dev/null; then
+
+	# Define um alias para facilitar a aplicação do grc-rs nos comandos.
+	alias colourify="$GRC"
+
+	# Lista de comandos que serão configurados para saída colorida.
+	commands=(
+		ant blkid configure df diff dig dnf docker-machinels dockerimages dockerinfo
+		dockernetwork dockerps dockerpull dockersearch dockerversion du fdisk
+		findmnt go-test ifconfig iostat_sar ip ipaddr ipneighbor iproute iptables
+		irclog iwconfig kubectl last ldap lolcat lsattr lsblk lsmod lsof lspci
+		lsusb mount mtr mvn netstat nmap ntpdate ping ping2 proftpd pv
+		semanageboolean semanagefcontext semanageuser sensors showmount sockstat
+		ss stat sysctl tcpdump traceroute tune2fs ulimit uptime vmstat wdiff yaml
+	)
+
+	# Itera pela lista de comandos e cria um alias apenas se o comando existir.
+	for cmd in "${commands[@]}"; do
+		if command -v "$cmd" >/dev/null; then
+			alias "$cmd"="colourify $cmd"
+		fi
+	done
+
+	# Remove as variáveis temporárias para evitar poluição do ambiente.
+	unset commands cmd
+fi
+
+# Set GCC color settings for error and warning messages
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# Use 'bat' as a replacement for 'cat' with improved output formatting if available
+if [ -f /usr/bin/bat ]; then
+	cat() {
+		local use_cat=false
+		# Check if any argument contains -v, -e, -t or their combinations
+		for arg in "$@"; do
+			if [[ "$arg" =~ ^-[vet]+$ ]]; then
+				use_cat=true
+				break
+			fi
+		done
+
+		# If no special options, use bat
+		if [ "$use_cat" == true ]; then
+			command cat "$@"
+		else
+			bat --paging=never --style=plain "$@"
+		fi
+	}
+
+	# Customize the 'help' command to display colorized output
+	help() {
+		if [ $# -eq 0 ]; then
+			command help
+		else
+			"$@" --help 2>&1 | bat --paging=never --style=plain --language=help
+		fi
+	}
+fi
+
+# ----- History Configuration -----
+# Configurações do histórico do shell
+
+# Define como o histórico lida com comandos duplicados e comandos iniciados com espaço:
+# - `ignoredups`: Ignora comandos duplicados consecutivos.
+# - `ignorespace`: Não adiciona ao histórico comandos que começam com espaço.
+# - `ignoreboth`: Atalho para combinar `ignoredups` e `ignorespace`.
+HISTCONTROL=ignoreboth
+
+# Habilita o modo de anexar (`append`) ao histórico em vez de sobrescrevê-lo.
+# Isso evita que comandos antigos sejam perdidos ao abrir um novo shell.
+shopt -s histappend
+
+# Define o número de comandos mantidos na memória do histórico da sessão atual.
+HISTSIZE=1000
+
+# Define o número máximo de comandos armazenados no arquivo de histórico (`~/.bash_history`).
+HISTFILESIZE=2000
+
+# Habilita a verificação automática do tamanho da janela do terminal após cada comando.
+# Isso corrige problemas onde a saída de comandos pode ser exibida de forma incorreta
+# se a janela for redimensionada.
+shopt -s checkwinsize
+
+# Load custom aliases if ~/.bash_aliases exists
+if [ -f ~/.bash_aliases ]; then
+	. ~/.bash_aliases
+fi
+
+# ----- NVM Configuration -----
+# Load Node Version Manager (NVM) if installed
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+# ----- Auto-completion Configuration -----
+# Enable programmable auto-completion if supported
+if ! shopt -oq posix; then
+	if [ -f /usr/share/bash-completion/bash_completion ]; then
+		. /usr/share/bash-completion/bash_completion
+	elif [ -f /etc/bash_completion ]; then
+		. /etc/bash_completion
+	fi
+fi
+
+# ----- FZF Configuration -----
+# Load FZF key bindings and define custom search functions
+if [ -f /usr/share/fzf/key-bindings.bash ]; then
+	eval "$(fzf --bash)"
+	# Define a 'find-in-file' (fif) function using FZF and ripgrep
+	fif() {
+		if [ ! "$#" -gt 0 ]; then
+			echo "Need a string to search for!"
+			return 1
+		fi
+		fzf --preview "highlight -O ansi -l {} 2> /dev/null | rga --ignore-case --pretty --context 10 '$1' {}" < <(rga --files-with-matches --no-messages "$1")
+	}
+fi
+
+# Attach ble.sh if loaded
+if [[ ${BLE_VERSION-} ]]; then
+	# Fix if use old snapshot with new blesh cache
+	if [[ -d ~/.cache/blesh/ ]]; then
+		if grep -q -m1 _ble_decode_hook ~/.cache/blesh/*/decode.bind.*.bind; then _bleCacheVersion=new; else _bleCacheVersion=old; fi
+		[[ $_bleInstalledVersion != $_bleCacheVersion ]] && rm ~/.cache/blesh/*/[dk]* >/dev/null
+	fi
+	if grep -q -m1 _ble_decode_hook /usr/share/blesh/lib/init-bind.sh; then _bleInstalledVersion=new; else _bleInstalledVersion=old; fi
+	ble-attach
+	# FZF Configuration
+	if [ -f /usr/share/fzf/key-bindings.bash ]; then
+		_ble_contrib_fzf_base=/usr/share/fzf/
+	fi
+else
+	# Default PS1 for non-ble.sh interactive sessions
+	PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+fi
+
+[[ -e /etc/bashrc ]] && source /etc/bashrc

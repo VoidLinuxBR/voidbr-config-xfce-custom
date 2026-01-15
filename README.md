@@ -1,3 +1,3 @@
 # voidbr-pkgfile-template
 
-Template for VoidBR pkgmake/pkgfile packages
+Skel config for Void Linux XFCE4 Meta Package

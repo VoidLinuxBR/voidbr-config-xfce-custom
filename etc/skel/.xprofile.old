@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Carrega .profile (com as variáveis importantes)
+[ -f "$HOME/.profile" ] && . "$HOME/.profile"
+
+# Garante o tema escuro no GTK e Qt
+export GTK_THEME="Adwaita-dark"
+export GTK_APPLICATION_PREFER_DARK_THEME=1
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
+# Qualquer outra config gráfica tu pode jogar aqui

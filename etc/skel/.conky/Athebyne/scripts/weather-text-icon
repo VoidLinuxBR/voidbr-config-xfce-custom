@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# v2.2
+# I create this scripts to show weather icon with text icon, because if i use image sometimes the icon doesn't change
+# and take data from json file, so it can use offline
+# the font i use Wewthericons73 icon font,i create for my conky theme based Kickstand Apps works with some icon added ( original font see https://github.com/kickstandapps/WeatherIcons )
+# to get weather.json file i use another script
+# Closebox73
+
+# icon font based openweathermap.org data
+ICON_01D="J"
+ICON_01N="D"
+ICON_02D="F"
+ICON_02N="E"
+ICON_03="A"
+ICON_04="L"
+ICON_09="K"
+ICON_10="G"
+ICON_11="I"
+ICON_13="H"
+ICON_50="C"
+NO_DATA="P"
+
+WEATHER_ICON=$(cat ~/.cache/weather.json | jq -r '.weather[0].icon')
+
+if [[ "${WEATHER_ICON}" = *01d* ]]; then
+    echo "${ICON_01D}"
+elif [[ "${WEATHER_ICON}" = *01n* ]]; then
+    echo "${ICON_01N}"
+elif [[ "${WEATHER_ICON}" = *02d* ]]; then
+    echo "${ICON_02D}"
+elif [[ "${WEATHER_ICON}" = *02n* ]]; then
+    echo "${ICON_02N}"
+elif [[ "${WEATHER_ICON}" = *03d* || "${WEATHER_ICON}" = *03n* ]]; then
+    echo "${ICON_03}"
+elif [[ "${WEATHER_ICON}" = *04d* || "${WEATHER_ICON}" = *04n* ]]; then
+    echo "${ICON_04}"
+elif [[ "${WEATHER_ICON}" = *09d* || "${WEATHER_ICON}" = *09n* ]]; then
+    echo "${ICON_09}"
+elif [[ "${WEATHER_ICON}" = *10d* || "${WEATHER_ICON}" = *10n* ]]; then
+    echo "${ICON_10}"
+elif [[ "${WEATHER_ICON}" = *11d* || "${WEATHER_ICON}" = *11n* ]]; then
+    echo "${ICON_11}"
+elif [[ "${WEATHER_ICON}" = *13d* || "${WEATHER_ICON}" = *13n* ]]; then
+    echo "${ICON_13}"
+elif [[ "${WEATHER_ICON}" = *50d* || "${WEATHER_ICON}" = *50n* ]]; then
+    echo "${ICON_50}"
+else
+	echo "${NO_DATA}"
+fi
+
+exit

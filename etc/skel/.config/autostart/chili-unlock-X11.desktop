@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ChiliUnlock X11
+Exec=~/.local/bin/chili-unlock-X11.sh
+TryExec=~/.local/bin/chili-unlock-X11.sh
+X-GNOME-Autostart-enabled=true
+OnlyShowIn=XFCE;MATE;Cinnamon;GNOME;KDE;
+NoDisplay=true

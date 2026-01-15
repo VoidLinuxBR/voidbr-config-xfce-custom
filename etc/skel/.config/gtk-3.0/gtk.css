@@ -1,0 +1,125 @@
+@import 'colors.css';
+
+.xfce4-panel {
+  background-color: rgba(30,30,30,0.8);
+  border: none;
+}
+
+/* Configuration icons tray XFCE */
+ #xfce4-notification-plugin *, #xfce4-power-manager-plugin *, #pulseaudio-button *, #indicator-button *, #sn-button *, #showdesktop-button *, #xfce4-clipman-plugin * {
+ -gtk-icon-transform: scale(0.60);
+  color: #afafaf;
+}
+
+/* Configuration Calendar XFCE */
+calendar {
+font-size: 16px;
+padding: 8px;
+border: 0px;
+outline: none;
+}
+
+/* Whisker Menu XFCE */
+#whiskermenu-window * {
+  border: 0px;
+  outline: none;
+  font-weight: normal;
+  text-shadow: none;
+}
+
+#whiskermenu-window {
+  background-color: rgba(30,30,30,0.9);
+  border-radius: 15px 15px 0px 0px;
+}
+
+#whiskermenu-window button:focus,
+#whiskermenu-window button:hover,
+#whiskermenu-window button:active,
+#whiskermenu-window button:selected,
+#whiskermenu-window treeview:selected,
+#whiskermenu-window treeview:hover,
+#whiskermenu-window treeview:active,
+#whiskermenu-window treeview:focus
+{
+background: rgba(255, 255, 255, 0.15);
+transition: 200ms;
+}
+
+#whiskermenu-window treeview:focus {
+background: transparent;
+}
+#whiskermenu-window iconview{
+background: transparent;
+border-radius: 8px;
+}
+
+#whiskermenu-window button {
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+#whiskermenu-window iconview:hover{
+background: rgba(255, 255, 255, 0.15);
+transition: 200ms;
+}
+
+#whiskermenu-window iconview{
+background: transparent;
+border-radius: 10px;
+transition: 200ms;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+
+/* Remove borders from all elements inside Thunar */
+.thunar * {
+    border: none;
+}
+
+/* Scale down icons in the Thunar toolbar */
+.thunar > grid > toolbar * {
+    -gtk-icon-transform: scale(0.7);
+}
+
+/* Set spacing for icon view in Thunar */
+* {
+    /* Set row spacing in icon view */
+    -ThunarAbstractIconView-row-spacing: 15;
+    /* Set column spacing in icon view */
+    -ThunarAbstractIconView-column-spacing: 50;
+}
+
+
+/* Logout Screen XFCE */
+.xfsm-logout-dialog {
+    background: rgba(30, 30, 30, 0.8);
+    border-radius: 40px;
+    padding: 0px;
+}
+
+.xfsm-logout-dialog .text-button {
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.xfsm-logout-buttons button {
+    background: rgba(30, 30, 30, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.xfsm-logout-buttons button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    padding: 30px;
+    margin: 10px;
+}

@@ -1,0 +1,57 @@
+#1755249472
+cd
+#1755249473
+dir
+#1755249476
+ddel .*
+#1755249477
+dir
+#1755249479
+ddel *
+#1755249480
+dir
+#1755249484
+reboot
+cd
+xcopy /etc/skel/. .
+cp -Rpvan /etc/skel. .
+cp -Rpva /etc/skel/. .
+reboot
+#1755294943
+sudo pacman -Syu
+#1755294966
+cdp
+#1755294967
+dir
+#1755294972
+sudo rm *
+#1755294973
+dir
+#1755294976
+sudo ldconfig
+#1755294978
+cd /
+#1755294978
+dir
+#1755294982
+uname -a
+#1755294986
+dir
+#1755295006
+cd /
+#1755295007
+dir
+#1755295011
+cd
+#1755295011
+dir
+#1755295015
+ddel .cache
+#1755295016
+dir
+#1755295022
+reboot
+#1755295062
+sudo ed /etc/lxdm/lxdm.conf 
+#1755295069
+reboot

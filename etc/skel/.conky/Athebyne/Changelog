@@ -1,0 +1,49 @@
+Changelog
+------------------------------
+Athebyne - Conky Theme
+[ Draco Themes Pack ] 
+
+by Closebox73
+
+Social
+X			: https://twitter.com/closebox73
+Discord		: https://discord.com/users/1115644269802311750
+Pling		: https://pling.com/u/closebox73x
+Mastodon	: https://mastodon.social/@closebox73
+------------------------------
+
+v2.9
+date : 04 Dec 2024
+-	Change name to be Athebyne
+-	Change main font from Comfortaa to be Fira Sans
+-	Change weather icon font from Feather to be Weathericons73 ( my own font)
+-	Change Feels like Temperature info to be Max and Min Temperature info
+-	Slight changes to the size and position of the letters
+-	Drop support for mpd status info
+
+
+v2.4
+date : 10 Jun 2024
+-	Add Donate Link
+-	Slight changes to the size and position of the letters
+
+
+v2.2
+date : 20 Jun 2023
+-	Add License
+-	Add Changelog file
+-	A few changes to the script
+-	New Weather.sh
+-	Add Fahrenheit version
+
+
+v1.7
+date : 12 Oct 2022
+-	Add override_utf8_locale line
+- 	Minimize Archive size
+- 	Change weather icon to be Feather icon font
+
+
+v1.0
+date : 20 Apr 2021
+-	Initial release
