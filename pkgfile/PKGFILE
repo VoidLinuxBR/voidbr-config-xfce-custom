@@ -33,7 +33,7 @@
 ##############################################################################
 # Maintainer: Vilmar Catafesta <vcatafesta@gmail.com>
 
-pkgname=voidbr-config-xfce-custom
+pkgname=voidbr-xfce-config
 pkgdesc="Skel config for Void Linux XFCE4 Meta Package"
 pkgver=$(date +%Y%m%d)
 pkgrel=$(date +%H%M)
