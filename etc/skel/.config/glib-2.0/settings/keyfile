@@ -1,0 +1,28 @@
+[org/gnome/desktop/sound]
+event-sounds=true
+input-feedback-sounds=true
+theme-name='default'
+
+[org/gnome/desktop/peripherals/mouse]
+double-click=400
+drag-threshold=8
+
+[org/gnome/desktop/wm/preferences]
+button-layout='icon,menu:minimize,maximize,close'
+action-middle-click-titlebar='lower'
+
+[org/gnome/desktop/interface]
+gtk-theme='gnome-professional-solid-40.1-dark'
+icon-theme='BeautyFolders'
+gtk-key-theme=''
+cursor-blink=true
+cursor-blink-time=1200
+cursor-size=0
+cursor-theme='capitaine-cursors-light'
+font-name='Cantarell 9'
+
+[net/launchpad/plank/docks/dock1]
+dock-items=['desktop.dockitem', 'trash.dockitem', 'brave-browser.dockitem', 'org.xfce.Parole-1.dockitem', 'org.xfce.mousepad.dockitem', 'thunar.dockitem', 'firefox-1.dockitem', 'xfce4-terminal.dockitem']
+position='top'
+theme='Default'
+zoom-enabled=true
