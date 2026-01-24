@@ -1,0 +1,27 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+SideBarPage=folders
+
+[ImageView]
+AnimationMethod=DocumentView::NoAnimation
+MouseWheelBehavior=MouseWheelBehavior::Browse
+ThumbnailSplitterSizes=529,94
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Notification Messages]
+HideMenuBarWarning=false
+
+[SideBar]
+InformationSplitterSizes=225,250
+IsVisible ViewMode=false
+
+[ThumbnailView]
+ListVideos=false

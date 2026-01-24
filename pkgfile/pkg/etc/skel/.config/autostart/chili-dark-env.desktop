@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ChiliDark Env
+Exec=~/.local/bin/chili-dark-env.sh
+TryExec=~/.local/bin/chili-dark-env.sh
+X-GNOME-Autostart-enabled=true
+OnlyShowIn=XFCE;KDE;LXQt;GNOME;MATE;Openbox;

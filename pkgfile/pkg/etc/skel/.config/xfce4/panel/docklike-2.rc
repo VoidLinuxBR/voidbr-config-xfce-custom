@@ -1,0 +1,9 @@
+[user]
+showPreviews=true
+pinned=thunar;brave-browser;
+indicatorStyle=1
+inactiveIndicatorStyle=1
+forceIconSize=false
+keyComboActive=false
+keyAloneActive=false
+inactiveColor=rgb(119,118,123)
