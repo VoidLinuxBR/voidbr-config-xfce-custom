@@ -25,16 +25,23 @@ configs:
     "/home/live":
       row: 0
       col: 0
-    "/home/vcatafesta/\xC1rea de trabalho/void-install.desktop":
+    "Volume de 2,6 GB":
       row: 3
       col: 0
-    "/home/vcatafesta":
-      row: 0
-      col: 0
-    "/":
-      row: 2
+      last_seen: 1769363207675195
+    "/home/vcatafesta/\xC1rea de trabalho/void-install.desktop":
+      row: 3
       col: 0
     "Volume de 2,8 GB":
       row: 3
       col: 0
       last_seen: 1768414087490760
+    "/":
+      row: 2
+      col: 0
+    "/home/anon/\xC1rea de trabalho/void-install.desktop":
+      row: 4
+      col: 0
+    "/home/vcatafesta":
+      row: 0
+      col: 0

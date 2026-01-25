@@ -1,471 +1,435 @@
-libxfce4windowing-Message: 14:28:21.224: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
-libxfce4windowing-Message: 14:28:21.224: Failed to get _NET_WORKAREA; using full screen dimensions
-libxfce4windowing-Message: 14:28:21.224: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
-libxfce4windowing-Message: 14:28:21.224: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
-/usr/bin/iceauth:  creating new authority file /run/user/1001/ICEauthority
+libxfce4windowing-Message: 14:46:43.272: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+libxfce4windowing-Message: 14:46:43.272: Failed to get _NET_WORKAREA; using full screen dimensions
+libxfce4windowing-Message: 14:46:43.272: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+libxfce4windowing-Message: 14:46:43.272: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+gpg-agent[2279]: pasta '/home/anon/.gnupg' criada
+gpg-agent[2279]: pasta '/home/anon/.gnupg/private-keys-v1.d' criada
+gpg-agent[2280]: gpg-agent (GnuPG) 2.4.9 started
 env: “kdeinit4”: Arquivo ou diretório inexistente
 env: “qdbus”: Arquivo ou diretório inexistente
 
-(xfce4-session:7775): xfce4-session-WARNING **: 14:28:21.879: Failed to run gnome-keyring-daemon: Falha ao executar processo filho “gnome-keyring-daemon” (Arquivo ou diretório inexistente)
-Gtk-Message: 14:28:21.950: Failed to load module "colorreload-gtk-module"
-libxfce4windowing-Message: 14:28:22.013: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+(xfce4-session:2193): xfce4-session-WARNING **: 14:46:43.972: Failed to run gnome-keyring-daemon: Falha ao executar processo filho “gnome-keyring-daemon” (Arquivo ou diretório inexistente)
+libxfce4windowing-Message: 14:46:45.589: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
 
-(xfwm4:7865): xfwm4-WARNING **: 14:28:22.089: Unsupported GL renderer (llvmpipe (LLVM 21.1.7, 256 bits)).
-Gtk-Message: 14:28:22.190: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:22.293: Failed to load module "colorreload-gtk-module"
+(xfwm4:2284): xfwm4-WARNING **: 14:46:45.691: Unsupported GL renderer (llvmpipe (LLVM 21.1.7, 256 bits)).
 
-(xfsettingsd:7927): xfconf-WARNING **: 14:28:22.461: Type gint does not match type gboolean of property /AutoEnableProfiles
-Gtk-Message: 14:28:22.645: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:22.664: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:22.729: Failed to load module "colorreload-gtk-module"
+(xfwm4:2284): Gtk-WARNING **: 14:46:45.770: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfce4-session:7775): xfce4-session-WARNING **: 14:28:22.908: Unable to launch "/usr/bin/octoxbps-notifier" (specified by autostart/octoxbps-notifier.desktop): Falha ao executar processo filho “/usr/bin/octoxbps-notifier” (Arquivo ou diretório inexistente)
+(xfce4-session:2193): Gtk-WARNING **: 14:46:45.772: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <icon>
+(xfce4-session:2193): Gtk-WARNING **: 14:46:45.803: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <name>
+(xfsettingsd:2376): xfconf-WARNING **: 14:46:46.080: Type gint does not match type gboolean of property /AutoEnableProfiles
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <submenu>
+(xfsettingsd:2376): Gtk-WARNING **: 14:46:46.164: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <unique-id>
+(Thunar:2396): Gtk-WARNING **: 14:46:46.277: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <command>
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.291: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <description>
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.351: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <range>
+(xfdesktop:2403): Gtk-WARNING **: 14:46:46.372: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <patterns>
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.397: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <directories>
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.441: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <audio-files>
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.481: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <image-files>
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.517: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <other-files>
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.551: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <text-files>
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.600: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Unknown element ignored: <video-files>
+(xfdesktop:2403): Gtk-WARNING **: 14:46:46.625: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): thunar-uca-WARNING **: 14:28:22.927: Failed to load `/home/vcatafesta/.config/Thunar/uca.xml': Erro na linha 29 caractere 10: Elemento “action” foi fechado, mas o elemento atualmente aberto é “actions”
-Gtk-Message: 14:28:22.991: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.018: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.026: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.028: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.064: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.152: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.152: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.153: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.153: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.156: Failed to load module "colorreload-gtk-module"
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.639: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:23.211: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.693: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:23.211: pa_context_connect() failed: Access denied
-Gtk-Message: 14:28:23.213: Failed to load module "colorreload-gtk-module"
-Gtk-Message: 14:28:23.219: Failed to load module "colorreload-gtk-module"
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.751: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(xfdesktop:7954): xfdesktop-WARNING **: 14:28:23.340: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/dog-from-space2.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
-conky: nenhum processo localizado
-conky: cannot open /home/vcatafesta/.conky/Chili-Minimal/Chili-Minimal.conf: Arquivo ou diretório inexistente
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <icon>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:28.807: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <name>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:28.810: pa_context_connect() failed: Access denied
-Gtk-Message: 14:28:33.012: Failed to load module "colorreload-gtk-module"
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <submenu>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:33.805: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <unique-id>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:33.806: pa_context_connect() failed: Access denied
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <command>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:38.807: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <description>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:38.808: pa_context_connect() failed: Access denied
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <range>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:43.810: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <patterns>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:43.810: pa_context_connect() failed: Access denied
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <directories>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:48.807: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <audio-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:48.808: pa_context_connect() failed: Access denied
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <image-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:53.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <other-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:53.811: pa_context_connect() failed: Access denied
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <text-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:58.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Unknown element ignored: <video-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:28:58.811: pa_context_connect() failed: Access denied
+(xfdesktop:2403): thunar-uca-WARNING **: 14:46:46.767: Failed to load `/home/anon/.config/Thunar/uca.xml': Erro na linha 29 caractere 10: Elemento “action” foi fechado, mas o elemento atualmente aberto é “actions”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:03.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-clipman:2443): Gtk-WARNING **: 14:46:46.784: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:03.812: pa_context_connect() failed: Access denied
+(xfce4-panel:2390): Gtk-WARNING **: 14:46:46.787: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:08.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(wrapper-2.0:2430): Gtk-WARNING **: 14:46:46.833: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:08.812: pa_context_connect() failed: Access denied
+(wrapper-2.0:2422): Gtk-WARNING **: 14:46:46.833: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:13.810: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(wrapper-2.0:2427): Gtk-WARNING **: 14:46:46.834: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:13.811: pa_context_connect() failed: Access denied
+(wrapper-2.0:2429): Gtk-WARNING **: 14:46:46.836: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:18.809: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(wrapper-2.0:2428): Gtk-WARNING **: 14:46:46.838: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:18.810: pa_context_connect() failed: Access denied
+(wrapper-2.0:2470): Gtk-WARNING **: 14:46:46.960: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:23.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(wrapper-2.0:2430): Gtk-WARNING **: 14:46:46.961: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:23.812: pa_context_connect() failed: Access denied
+(wrapper-2.0:2469): Gtk-WARNING **: 14:46:46.962: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:28.810: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(pasystray:2504): Gtk-WARNING **: 14:46:46.964: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:28.811: pa_context_connect() failed: Access denied
+(wrapper-2.0:2429): Gtk-WARNING **: 14:46:46.964: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:33.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-notifyd:2471): xfce4-notifyd-WARNING **: 14:46:46.973: Unable to open notification log: Falha ao criar a tabela de 'notificações': database is locked
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:33.812: pa_context_connect() failed: Access denied
+(plank:2447): Gtk-WARNING **: 14:46:46.973: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:38.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(plank:2447): Gtk-WARNING **: 14:46:47.011: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:38.811: pa_context_connect() failed: Access denied
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: invalid (NULL) pointer instance
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:43.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:43.812: pa_context_connect() failed: Access denied
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: invalid (NULL) pointer instance
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:48.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:48.812: pa_context_connect() failed: Access denied
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: invalid (NULL) pointer instance
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:53.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:53.812: pa_context_connect() failed: Access denied
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: invalid (NULL) pointer instance
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:58.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:29:58.813: pa_context_connect() failed: Access denied
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: invalid (NULL) pointer instance
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:03.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-notifyd:2471): GLib-GObject-CRITICAL **: 14:46:47.021: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:03.812: pa_context_connect() failed: Access denied
+(nm-applet:2478): Gtk-WARNING **: 14:46:47.039: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:08.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-screensaver:2462): Gtk-WARNING **: 14:46:47.069: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:08.812: pa_context_connect() failed: Access denied
+(xfce4-power-manager:2456): Gtk-WARNING **: 14:46:47.072: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:13.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-notifyd:2471): Gtk-WARNING **: 14:46:47.120: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:13.811: pa_context_connect() failed: Access denied
+(wrapper-2.0:2470): Gtk-WARNING **: 14:46:47.167: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:18.810: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(wrapper-2.0:2427): Gtk-WARNING **: 14:46:47.171: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:18.811: pa_context_connect() failed: Access denied
+(wrapper-2.0:2469): Gtk-WARNING **: 14:46:47.203: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:23.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(wrapper-2.0:2427): xfce4-notification-plugin-WARNING **: 14:46:47.237: Unable to check for unread messages: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code0: O registro está indisponível
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:23.812: pa_context_connect() failed: Access denied
+(wrapper-2.0:2422): Gtk-WARNING **: 14:46:47.255: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:28.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(wrapper-2.0:2428): Gtk-WARNING **: 14:46:47.395: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:28.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:46:47.869: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/ocean-paint.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+.conky/conky-startup.sh: 5: killall: not found
+.conky/conky-startup.sh: 7: conky: not found
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:33.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop-settings:2935): Gtk-WARNING **: 14:47:00.968: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:33.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:47:11.133: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/bird-blue-and-yellow.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:38.810: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:47:13.612: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal bird14.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:38.811: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:47:16.335: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/robot12.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:43.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:47:20.729: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/art-paint37.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:43.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:47:31.984: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal-clean2.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:48.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:47:34.751: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal-clean-pink1.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:48.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:47:39.703: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/clean-art7.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:53.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-terminal:3611): Gtk-WARNING **: 14:47:44.174: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:53.812: pa_context_connect() failed: Access denied
+(xfdesktop-settings:4711): Gtk-WARNING **: 14:48:48.118: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:58.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:48:51.479: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/clean-art7.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:30:58.811: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:48:51.681: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/clean-art7.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:03.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:48:51.944: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/clean-art7.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:03.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:48:52.600: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/clean-art7.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:08.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.351: Unknown element ignored: <icon>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:08.813: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <name>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:13.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <submenu>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:13.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <unique-id>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:18.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <command>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:18.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <description>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:23.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <range>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:23.813: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <patterns>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:28.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <directories>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:28.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <audio-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:33.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <image-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:33.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <other-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:38.809: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <text-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:38.810: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Unknown element ignored: <video-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:43.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 14:49:04.352: Failed to load `/home/anon/.config/Thunar/uca.xml': Erro na linha 29 caractere 10: Elemento “action” foi fechado, mas o elemento atualmente aberto é “actions”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:43.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:49:52.987: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal-owl23.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:48.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:50:52.993: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/nature7.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:48.812: pa_context_connect() failed: Access denied
+(xfce4-terminal:6625): Gtk-WARNING **: 14:50:55.658: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:53.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-terminal:7017): Gtk-WARNING **: 14:51:16.075: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:53.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:51:53.002: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/clean art3.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:58.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:52:46.724: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/clean-pink4.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:31:58.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:52:50.500: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/glass-or-crystal15.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:03.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:52:52.987: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/cat-steampunk1.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:03.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:52:56.231: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/ambiance26.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:08.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-terminal:9079): Gtk-WARNING **: 14:53:29.836: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:08.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:53:52.991: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/abstract-colors8.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:13.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:54:52.998: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/iceberg canva.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:13.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:55:53.039: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/art-paint48.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:18.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:56:53.040: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal-owl2.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:18.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:57:53.046: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal-owl4.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:23.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 14:58:53.036: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal-lion-baby.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:23.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 14:59:52.991: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal-owl20.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:28.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:00:53.009: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal-owl14.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:28.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:01:53.038: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/animal-painting1.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:33.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:02:53.044: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/dog3.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:33.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:03:53.038: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/art-paint12.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:38.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:04:53.037: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/clean-grey4.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:38.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:05:52.992: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/penguin-purple2.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:43.816: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop-settings:20263): Gtk-WARNING **: 15:05:54.657: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:43.817: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:06:14.798: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Flying-by-Sylvain-Mauroux.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:48.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:06:28.665: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/xfce-shapes.svg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:48.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:06:32.759: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/abstract-art3.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:53.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:06:35.925: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Flying-by-Sylvain-Mauroux.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:53.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:06:38.631: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Landscape-by-Jimmy-Conover.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:58.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:07:15.152: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Snowy-Tree-by-Pascal-Debrunner.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:32:58.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:08:15.000: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/ZorinPurple-Dark.svg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:03.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:09:14.995: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/ZorinGreen-Light.svg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:03.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:10:15.173: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Ocean-Horizon-by-Dave-Hoefler.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:08.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:11:15.263: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Dolomites-by-Wirestock.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:08.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:12:15.190: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Tropical-by-Colin+Meg.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:13.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:13:15.061: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Aquarius.svg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:13.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:14:14.999: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/ZorinBrown-Dark.svg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:18.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:15:15.133: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Flower-Blossom-by-Simon-Berger.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:18.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <icon>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:23.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <name>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:23.813: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <submenu>
 
-(xfdesktop:7954): xfdesktop-WARNING **: 14:33:23.922: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/chililinux/ocean-paint.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <unique-id>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:28.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <command>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:28.813: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <description>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:33.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <range>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:33.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <patterns>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:38.810: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <directories>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:38.811: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <audio-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:43.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <image-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:43.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <other-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:48.809: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.347: Unknown element ignored: <text-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:48.809: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.348: Unknown element ignored: <video-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:53.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:00.348: Failed to load `/home/anon/.config/Thunar/uca.xml': Erro na linha 29 caractere 10: Elemento “action” foi fechado, mas o elemento atualmente aberto é “actions”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:53.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:16:15.157: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Night-Desert-by-Daniel-Olah.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:58.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-terminal:29548): Gtk-WARNING **: 15:16:18.033: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:33:58.813: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <icon>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:03.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <name>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:03.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <submenu>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:08.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <unique-id>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:08.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <command>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:13.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <description>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:13.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <range>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:18.810: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <patterns>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:18.811: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <directories>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:23.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <audio-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:23.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <image-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:28.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <other-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:28.813: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <text-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:33.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Unknown element ignored: <video-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:33.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:16:50.563: Failed to load `/home/anon/.config/Thunar/uca.xml': Erro na linha 29 caractere 10: Elemento “action” foi fechado, mas o elemento atualmente aberto é “actions”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:38.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfce4-terminal:30212): Gtk-WARNING **: 15:16:54.574: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:38.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:17:15.002: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/ZorinOrange-Light.svg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:43.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:17:38.857: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/xfce-flower.svg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:43.812: pa_context_connect() failed: Access denied
+(xfdesktop-settings:31137): Gtk-WARNING **: 15:17:46.110: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:48.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:18:02.781: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Flying-by-Sylvain-Mauroux.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:48.811: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.859: Unknown element ignored: <icon>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:53.808: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.859: Unknown element ignored: <name>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:53.809: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.859: Unknown element ignored: <submenu>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:58.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <unique-id>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:34:58.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <command>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:03.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <description>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:03.811: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <range>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:08.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <patterns>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:08.813: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <directories>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:13.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <audio-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:13.813: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <image-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:18.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <other-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:18.812: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <text-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:23.810: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Unknown element ignored: <video-files>
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:23.811: pa_context_connect() failed: Access denied
+(Thunar:2396): thunar-uca-WARNING **: 15:18:08.860: Failed to load `/home/anon/.config/Thunar/uca.xml': Erro na linha 29 caractere 10: Elemento “action” foi fechado, mas o elemento atualmente aberto é “actions”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:28.810: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:18:13.326: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/art-paint12.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:28.811: pa_context_connect() failed: Access denied
+(xfce4-terminal:31659): Gtk-WARNING **: 15:18:15.002: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:33.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:19:02.999: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/aurora-borealis-1.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:33.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:20:02.985: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/animal-owl17.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:38.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop-settings:1966): Gtk-WARNING **: 15:20:59.560: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:38.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:03.021: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/art paint14Resultado.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:43.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:08.790: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Night-Desert-by-Daniel-Olah.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:43.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:09.925: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Flower-Blossom-by-Simon-Berger.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:48.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:14.186: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/abstract-colors6.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:48.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:27.350: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/conceitual-multimedia3.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:53.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:29.659: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/animal-owl16.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:53.812: pa_context_connect() failed: Access denied
+(xfdesktop-settings:2704): Gtk-WARNING **: 15:21:32.190: Theme parsing error: main-dark.css:2470:0: Expected a valid selector
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:58.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:35.806: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Island-by-Simon-Spring.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:35:58.812: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:37.005: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Dolomites-by-Wirestock.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:03.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:42.597: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Flying-by-Sylvain-Mauroux.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:03.813: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:45.472: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Dolomites-by-Wirestock.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:08.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:50.936: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Lavender-Field-by-Simon-Spring.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:08.811: pa_context_connect() failed: Access denied
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:54.145: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Flying-by-Sylvain-Mauroux.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:13.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
+(xfdesktop:2403): xfdesktop-WARNING **: 15:21:58.893: Failed to register the newly set background with AccountsService '/usr/share/backgrounds/voidbr/Night-Desert-by-Daniel-Olah.jpg': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
 
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:13.812: pa_context_connect() failed: Access denied
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:18.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:18.813: pa_context_connect() failed: Access denied
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:23.809: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:23.810: pa_context_connect() failed: Access denied
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:28.812: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:28.813: pa_context_connect() failed: Access denied
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:33.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:33.812: pa_context_connect() failed: Access denied
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:38.811: Disconnected from the PulseAudio server. Attempting to reconnect in 5 seconds...
-
-(wrapper-2.0:8023): xfce4-pulseaudio-plugin-WARNING **: 14:36:38.812: pa_context_connect() failed: Access denied
+(xfce4-terminal:3209): Gtk-WARNING **: 15:22:04.307: Theme parsing error: main-dark.css:2470:0: Expected a valid selector

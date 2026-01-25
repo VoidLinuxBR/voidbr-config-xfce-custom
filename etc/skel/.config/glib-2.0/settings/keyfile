@@ -22,7 +22,21 @@ cursor-theme='capitaine-cursors-light'
 font-name='Cantarell 9'
 
 [net/launchpad/plank/docks/dock1]
-dock-items=['desktop.dockitem', 'trash.dockitem', 'brave-browser.dockitem', 'org.xfce.Parole-1.dockitem', 'org.xfce.mousepad.dockitem', 'thunar.dockitem', 'firefox-1.dockitem', 'xfce4-terminal.dockitem']
+dock-items=['desktop.dockitem', 'trash.dockitem', 'org.xfce.Parole-1.dockitem', 'org.xfce.mousepad.dockitem', 'thunar.dockitem', 'firefox-1.dockitem', 'xfce4-terminal.dockitem']
 position='top'
 theme='Default'
 zoom-enabled=true
+
+[org/gtk/settings/file-chooser]
+window-position=(23, 0)
+window-size=(990, 742)
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=164
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
